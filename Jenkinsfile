@@ -15,7 +15,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        echo 'Run unit tests'
+        error 'Test failed on purpose'
       }
     }
 
